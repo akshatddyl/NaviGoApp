@@ -1,0 +1,65 @@
+gitignore
+# ===================================================================
+# Default Android Studio .gitignore file
+#
+# It's recommended to create this file at the root of your project# ===================================================================
+
+# IDE files
+# Gradle-specific files
+.gradle/
+build/
+local.properties
+
+# Android Studio-specific files
+.idea/
+*.iml
+*.hprof
+
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.a_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Android Studio captures
+captures/
+
+# Lint results
+lint/reports/
+lint-results-*.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services file (if you have a private one)
+# google-services.json
+
+# C/C++ native build files
+.cxx/
+*/.cxx/
+cmake/
+*/cmake/
+build/
+*/build/
+
+# Log files
+*.log
+
+# Mac-specific files
+.DS_Store
+
+# Test reports
+/build/reports/tests/
+/build/outputs/androidTest-results/
+/build/outputs/reports/
+
+# Other temporary files
+.fastlane/
+fastlane/report.xml
